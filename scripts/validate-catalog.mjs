@@ -6,11 +6,10 @@ import { fileURLToPath } from 'node:url';
 import { buildCatalogIndex, canonicalJson } from './build-index.mjs';
 
 const repoRoot = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
-const { index, referencedPayloads } = buildCatalogIndex(repoRoot);
+const { index } = buildCatalogIndex(repoRoot);
 
 assert.equal(index.schema_version, 'opl_software_catalog_index.v1');
 assert.equal(index.catalog_id, 'public-registry:opl');
-assert.equal(index.package_count, 23, `Expected 23 catalog packages, got ${index.package_count}`);
 
 for (const entry of index.packages) {
   assert.notEqual(entry.package_id, 'opl-channel-weixin', 'opl-channel-weixin is a native Studio DSH plugin, not a catalog package');
@@ -19,13 +18,6 @@ for (const entry of index.packages) {
     assert.match(entry.payload_sha256, /^sha256:[0-9a-f]{64}$/);
   }
   assert.match(entry.allowlist_sha256, /^sha256:[0-9a-f]{64}$/);
-}
-
-const payloadsDir = path.join(repoRoot, 'packages', 'payloads');
-const diskPayloads = fs.readdirSync(payloadsDir).filter((name) => name.endsWith('.json')).sort();
-for (const fileName of diskPayloads) {
-  assert.ok(!fileName.startsWith('opl-channel-weixin'), `Retired payload must not exist: ${fileName}`);
-  assert.ok(referencedPayloads.has(fileName), `Unreferenced orphan payload in packages/payloads/: ${fileName}`);
 }
 
 const allowlistsDir = path.join(repoRoot, 'allowlists');

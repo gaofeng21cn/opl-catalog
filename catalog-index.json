@@ -919,6 +919,18 @@
       "software_type": "application",
       "version": "0.1.7",
       "visibility": "authorized_only",
+      "public_summary": {
+        "owner_source_repo": "https://github.com/gaofeng21cn/glkvm-native.git",
+        "display_name": "MAP Desk",
+        "display_name_i18n": {
+          "zh-CN": "MAP Desk",
+          "en-US": "MAP Desk"
+        },
+        "description_i18n": {
+          "zh-CN": "只读查看 GLKVM 安装及运行状态，并通过原生工具控制设备。",
+          "en-US": "Read-only GLKVM installation and runtime review with native device control."
+        }
+      },
       "manifest_path": "packages/applications/glkvm-native.json",
       "manifest_sha256": "sha256:816c42886000c063adbfac0b569f59bb7b254cec4e1211b72f797e1b595e3719",
       "payload_path": "packages/payloads/glkvm-native-0.1.7.json",
@@ -1197,6 +1209,18 @@
       "software_type": "application",
       "version": "0.2.9",
       "visibility": "authorized_only",
+      "public_summary": {
+        "owner_source_repo": "https://github.com/gaofeng21cn/iphone-app-steward.git",
+        "display_name": "iPhone App Steward",
+        "display_name_i18n": {
+          "zh-CN": "iPhone App Steward",
+          "en-US": "iPhone App Steward"
+        },
+        "description_i18n": {
+          "zh-CN": "通过 USB 审查 iPhone/iPad App 使用证据、生成精确卸载或主屏布局计划，并在授权后执行与回读。",
+          "en-US": "Review iPhone or iPad app usage, create exact removal or Home Screen plans, and apply them only after authorization."
+        }
+      },
       "manifest_path": "packages/applications/iphone-steward.json",
       "manifest_sha256": "sha256:92924c5ff3d68785edb3afddebe7fe42d7ea8eb56943a712b89058244d44ff9d",
       "payload_path": "packages/payloads/iphone-steward-0.2.9.json",
@@ -17802,6 +17826,18 @@
       "software_type": "agent",
       "version": "0.2.2",
       "visibility": "authorized_only",
+      "public_summary": {
+        "owner_source_repo": "https://github.com/gaofeng21cn/opl-capital-compass.git",
+        "display_name": "OPL Capital Compass",
+        "display_name_i18n": {
+          "zh-CN": "OPL Capital Compass",
+          "en-US": "OPL Capital Compass"
+        },
+        "description_i18n": {
+          "zh-CN": "个人投资组合诊断、宏观研判、配置决策，以及经精确授权并由券商回读确认的交易执行。",
+          "en-US": "Personal investment portfolio diagnosis, macro judgment, allocation decisions, and exact-owner-authorized trade execution with broker readback."
+        }
+      },
       "manifest_path": "packages/agents/occ.json",
       "manifest_sha256": "sha256:57445b27e62123a2c36bf546f1d0d75cacc9dfcd769c7e66da9e4ba8df815c11",
       "payload_path": "packages/payloads/occ-0.2.2.json",
@@ -20487,6 +20523,18 @@
       "software_type": "channel",
       "version": "0.1.1",
       "visibility": "authorized_only",
+      "public_summary": {
+        "owner_source_repo": "https://github.com/gaofeng21cn/opl-link.git",
+        "display_name": "OPL Link Desktop Connector",
+        "display_name_i18n": {
+          "zh-CN": "OPL Link Desktop Connector",
+          "en-US": "OPL Link Desktop Connector"
+        },
+        "description_i18n": {
+          "zh-CN": "由 OPL Framework 托管的桌面对话连接组件，提供 OPL Link 的传输与配对适配。",
+          "en-US": "Framework-hosted desktop conversation connector for OPL Link transport and pairing."
+        }
+      },
       "manifest_path": "packages/channels/opl-link-desktop-connector.json",
       "manifest_sha256": "sha256:a511883dee839b24d614f9eeb6c90ca7d66321b23e59b824cc0eeadf8cefe740",
       "payload_path": "packages/payloads/opl-link-desktop-connector-0.1.1.json",

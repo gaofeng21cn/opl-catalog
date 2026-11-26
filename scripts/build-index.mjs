@@ -13,6 +13,9 @@ export const SOFTWARE_TYPE_TO_CATEGORY = {
   dependency: 'dependencies',
 };
 
+const PACKAGE_ID = /^[a-z0-9][a-z0-9.-]*$/;
+const VERSION = /^[0-9]+\.[0-9]+\.[0-9]+(?:-[A-Za-z0-9.-]+)?(?:\+[A-Za-z0-9.-]+)?$/;
+
 export function canonicalJson(value) {
   return `${JSON.stringify(value, null, 2)}\n`;
 }
@@ -21,32 +24,62 @@ export function sha256Text(text) {
   return `sha256:${crypto.createHash('sha256').update(text, 'utf8').digest('hex')}`;
 }
 
-function assertSafeRelative(relPath, label) {
-  if (typeof relPath !== 'string' || !relPath.trim() || path.isAbsolute(relPath) || relPath.includes('\0')) {
-    throw new Error(`Invalid ${label}: ${String(relPath)}`);
+function localizedSummaryText(value) {
+  return Object.fromEntries(['zh-CN', 'en-US']
+    .filter((locale) => typeof value?.[locale] === 'string' && value[locale].trim())
+    .map((locale) => [locale, value[locale]]));
+}
+
+function publicSummaryFor(manifest, ownerSourceRepo) {
+  if (manifest.visibility !== 'authorized_only' || manifest.source_repo !== ownerSourceRepo
+    || typeof ownerSourceRepo !== 'string' || !ownerSourceRepo
+    || typeof manifest.display_name !== 'string' || !manifest.display_name.trim()) {
+    throw new Error(`Invalid public listing approval for ${manifest.package_id}`);
   }
-  const normalized = path.posix.normalize(relPath.replace(/\\/g, '/'));
-  if (normalized === '..' || normalized.startsWith('../') || normalized !== relPath) {
-    throw new Error(`Unsafe relative ${label}: ${relPath}`);
-  }
-  return normalized;
+  return {
+    owner_source_repo: ownerSourceRepo,
+    display_name: manifest.display_name,
+    display_name_i18n: localizedSummaryText(manifest.presentation?.display_name_i18n),
+    description_i18n: localizedSummaryText(manifest.presentation?.description_i18n),
+  };
 }
 
 export function buildCatalogIndex(repoRoot) {
   const packagesRoot = path.join(repoRoot, 'packages');
   const allowlistsRoot = path.join(repoRoot, 'allowlists');
   const allowedPackageEntries = new Set([...CATEGORIES, 'payloads']);
+  const publicListings = JSON.parse(fs.readFileSync(path.join(repoRoot, 'public-listings.json'), 'utf8'));
+  if (!publicListings || typeof publicListings !== 'object' || Array.isArray(publicListings)) {
+    throw new Error('public-listings.json must map package IDs to owner source repositories');
+  }
 
   for (const dirent of fs.readdirSync(packagesRoot, { withFileTypes: true })) {
-    if (!allowedPackageEntries.has(dirent.name)) {
+    if (!dirent.isDirectory() || !allowedPackageEntries.has(dirent.name)) {
       throw new Error(`Unexpected entry under packages/: ${dirent.name}`);
+    }
+  }
+
+  const payloads = new Map();
+  const payloadsDir = path.join(packagesRoot, 'payloads');
+  if (fs.existsSync(payloadsDir)) {
+    for (const entry of fs.readdirSync(payloadsDir, { withFileTypes: true })) {
+      if (!entry.isFile() || !entry.name.endsWith('.json')) {
+        throw new Error(`Unexpected entry under packages/payloads/: ${entry.name}`);
+      }
+      const payload = JSON.parse(fs.readFileSync(path.join(payloadsDir, entry.name), 'utf8'));
+      const { package_id: packageId, package_version: version } = payload;
+      if (typeof packageId !== 'string' || !PACKAGE_ID.test(packageId)
+        || typeof version !== 'string' || !VERSION.test(version)
+        || entry.name !== `${packageId}-${version}.json`) {
+        throw new Error(`Payload filename must match package_id and package_version: ${entry.name}`);
+      }
+      payloads.set(`payloads/${entry.name}`, payload);
     }
   }
 
   const seenIds = new Map();
   const countsByCategory = Object.fromEntries(CATEGORIES.map((category) => [category, 0]));
   const entries = [];
-  const referencedPayloads = new Set();
 
   for (const category of CATEGORIES) {
     const dir = path.join(packagesRoot, category);
@@ -60,8 +93,11 @@ export function buildCatalogIndex(repoRoot) {
       const manifestAbs = path.join(dir, fileName);
       const manifest = JSON.parse(fs.readFileSync(manifestAbs, 'utf8'));
       const packageId = manifest.package_id;
-      if (typeof packageId !== 'string' || !packageId || fileName !== `${packageId}.json`) {
+      if (typeof packageId !== 'string' || !PACKAGE_ID.test(packageId) || fileName !== `${packageId}.json`) {
         throw new Error(`Manifest filename mismatch: packages/${category}/${fileName} (package_id=${String(packageId)})`);
+      }
+      if (typeof manifest.version !== 'string' || !VERSION.test(manifest.version)) {
+        throw new Error(`Invalid version for ${packageId}: ${String(manifest.version)}`);
       }
       if (seenIds.has(packageId)) {
         throw new Error(`Duplicate package_id ${packageId} in ${seenIds.get(packageId)} and ${category}`);
@@ -81,18 +117,13 @@ export function buildCatalogIndex(repoRoot) {
       let payload = null;
       let payloadSha256 = null;
       if (payloadUrl !== undefined && payloadUrl !== null) {
-        const safePayloadRel = assertSafeRelative(payloadUrl, `payload url for ${packageId}`);
-        if (!safePayloadRel.startsWith('payloads/')) {
-          throw new Error(`Package ${packageId} payload url must reside under payloads/: ${safePayloadRel}`);
+        const expectedPath = `payloads/${packageId}-${manifest.version}.json`;
+        payload = payloads.get(payloadUrl);
+        if (payloadUrl !== expectedPath || !payload || payload.source_repo !== manifest.source_repo) {
+          throw new Error(`Invalid current payload for ${packageId}: expected ${expectedPath} from its source repository`);
         }
-        const payloadAbs = path.join(packagesRoot, safePayloadRel);
-        if (!fs.existsSync(payloadAbs)) {
-          throw new Error(`Package ${packageId} references missing payload manifest: packages/${safePayloadRel}`);
-        }
-        payload = JSON.parse(fs.readFileSync(payloadAbs, 'utf8'));
-        payloadPath = `packages/${safePayloadRel}`;
+        payloadPath = `packages/${expectedPath}`;
         payloadSha256 = sha256Text(canonicalJson(payload));
-        referencedPayloads.add(path.basename(safePayloadRel));
       }
 
       const allowlistAbs = path.join(allowlistsRoot, `${packageId}.json`);
@@ -100,17 +131,21 @@ export function buildCatalogIndex(repoRoot) {
         throw new Error(`Missing allowlist for package ${packageId}: allowlists/${packageId}.json`);
       }
       const allowlist = JSON.parse(fs.readFileSync(allowlistAbs, 'utf8'));
-      if (allowlist.package_id !== packageId) {
-        throw new Error(`Allowlist package_id mismatch for ${packageId}`);
+      if (allowlist.package_id !== packageId || allowlist.source_repo !== manifest.source_repo) {
+        throw new Error(`Allowlist package_id or source_repo mismatch for ${packageId}`);
       }
+      const publicSummary = Object.hasOwn(publicListings, packageId)
+        ? publicSummaryFor(manifest, publicListings[packageId])
+        : null;
 
       countsByCategory[category] += 1;
       entries.push({
         package_id: packageId,
         category,
         software_type: softwareType,
-        version: String(manifest.version ?? ''),
+        version: manifest.version,
         visibility: manifest.visibility === 'authorized_only' ? 'authorized_only' : 'public',
+        ...(publicSummary ? { public_summary: publicSummary } : {}),
         manifest_path: `packages/${category}/${fileName}`,
         manifest_sha256: sha256Text(canonicalJson(manifest)),
         payload_path: payloadPath,
@@ -121,6 +156,12 @@ export function buildCatalogIndex(repoRoot) {
         payload,
         allowlist,
       });
+    }
+  }
+
+  for (const packageId of Object.keys(publicListings)) {
+    if (!seenIds.has(packageId)) {
+      throw new Error(`Public listing approval refers to missing package ${packageId}`);
     }
   }
 
@@ -137,7 +178,6 @@ export function buildCatalogIndex(repoRoot) {
       counts_by_category: countsByCategory,
       packages: entries,
     },
-    referencedPayloads,
   };
 }
 

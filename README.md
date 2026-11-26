@@ -16,11 +16,26 @@ Official software catalog and static package index for the **One Person Lab (OPL
 | `packages/payloads/` | — | Pinned v2 payload manifests referenced via `payloads/<id>-<version>.json` |
 | `allowlists/` | — | Package payload path allowlists |
 | `keys/` | — | Publisher verification public keys |
+| `public-listings.json` | — | Opt-in public summaries for restricted packages, bound to each owner's source repository |
 | `catalog-index.json` | — | Deterministic `opl_software_catalog_index.v1` static index for single-request HTTP/ETag sync |
 
 ## Visibility & Access Control
 
-Both `visibility: "public"` and `visibility: "authorized_only"` catalog metadata live in this repository (descriptors contain metadata only — never source archives, binaries, or secrets). Downloading and installing `authorized_only` packages is strictly gated at artifact fetch time by GHCR package permissions (`ghcr.io/gaofeng21cn/one-person-lab-private-packages/*`) and verified source credentials (`github-packages:gaofeng21cn`).
+The catalog contains the published metadata for public and restricted packages. A restricted package can opt into anonymous browsing in Software Center by adding its package ID and exact owner source repository to `public-listings.json`. The index then projects `public_summary` with the owner's published name and description in English and Chinese. Downloading, installing, or updating a restricted package requires GHCR package permission and the Framework's published artifact verification.
+
+## Publication & History
+
+The validation workflow checks the committed index against the descriptors. A successful run on this repository's `main` branch also records GitHub artifact provenance for those exact index bytes. For an independent verification, fetch the index at its immutable catalog commit and run the following command.
+
+```bash
+gh attestation verify catalog-index.json \
+  --repo gaofeng21cn/opl-catalog \
+  --signer-workflow gaofeng21cn/opl-catalog/.github/workflows/validate-catalog.yml \
+  --source-ref refs/heads/main \
+  --source-digest <catalog-commit>
+```
+
+Each catalog commit preserves its own payload manifests. The index embeds the current payload for each entry. Earlier payloads published before the catalog split are available in the [last Framework package tree before the split](https://github.com/gaofeng21cn/one-person-lab/tree/0217da56d1c672f2b3f94afa56541f3d3449b29f/contracts/opl-framework/packages/payloads).
 
 ## Maintenance
 
