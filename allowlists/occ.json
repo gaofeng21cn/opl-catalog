@@ -71,11 +71,13 @@
     "agent/tools/README.md",
     "agent/tools/domain_affordances.md",
     "app-contribution-adapter.json",
+    "assets/branding/opl-capital-compass-logo.png",
     "assets/branding/opl-capital-compass-overview-v1.png",
     "assets/icon.svg",
     "contracts/action_catalog.json",
     "contracts/artifact_locator_contract.json",
     "contracts/capability_map.json",
+    "contracts/carrier_projection.json",
     "contracts/domain_descriptor.json",
     "contracts/domain_handler_registry.json",
     "contracts/durable_knowledge_catalog.json",
@@ -114,7 +116,6 @@
     "scripts/validate_artifact.py",
     "skills/occ/SKILL.md",
     "tests/eval_cases.json",
-    "uv.lock",
-    "assets/branding/opl-capital-compass-logo.png"
+    "uv.lock"
   ]
 }

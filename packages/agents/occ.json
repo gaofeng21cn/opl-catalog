@@ -39,7 +39,7 @@
     "icon_ref": "assets/branding/opl-capital-compass-logo.png"
   },
   "publisher": "one-person-lab",
-  "version": "0.2.2",
+  "version": "0.2.4",
   "visibility": "authorized_only",
   "access_policy_ref": "github-package:gaofeng21cn/one-person-lab-private-packages/occ",
   "credential_provider": "github_packages",
@@ -79,8 +79,8 @@
     "app_contribution_adapter": {
       "manifest": "app-contribution-adapter.json"
     },
-    "plugin_payload_manifest_url": "payloads/occ-0.2.2.json",
-    "carrier_source_commit": "bc39c0729b2af701853a3ec32024c483b5e86961"
+    "plugin_payload_manifest_url": "payloads/occ-0.2.4.json",
+    "carrier_source_commit": "a75071c2a9f34087c6e68ed47539c35fffa4ec7d"
   },
   "app_contributions": {
     "schema_version": "opl-app-contributions.v1",
