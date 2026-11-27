@@ -134,5 +134,12 @@
     "owner_language_version_ref": "pyproject.toml"
   },
   "owner_package_manifest_ref": "opl-package.json",
-  "owner_package_descriptor_ref": "opl-package.json"
+  "owner_package_descriptor_ref": "opl-package.json",
+  "v2_release": {
+    "version": "0.2.4",
+    "source_commit": "c5e10f0dbb9dab6d80e483fcc14491268b4a685d",
+    "payload_manifest_ref": "payloads/kindle-pilot-0.2.4.json",
+    "payload_sha256": "sha256:c22cccc9052831e49da60aca82eaccedd433ef9c8f8dc3dc97aeb1a39eb93a6b",
+    "icon_ref": "assets/branding/kindle-pilot-logo.png"
+  }
 }
