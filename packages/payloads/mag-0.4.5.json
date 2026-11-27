@@ -1,0 +1,15 @@
+{
+  "package_format": "v2",
+  "package_id": "mag",
+  "package_version": "0.4.5",
+  "source_commit": "1d21015c9c1384ba10624d9b833905ffe61c8ddf",
+  "source_repo": "https://github.com/gaofeng21cn/med-autogrant.git",
+  "source_root": ".",
+  "archive_sha256": "sha256:9d63565e115a5b4c9169b4ec2a90877278fdd4ea8cb3b13a232b026ac1a2d848",
+  "file_count": 322,
+  "content_lock": {
+    "algorithm": "sha256",
+    "canonicalization": "ordered_path_length_file_length_bytes",
+    "digest": "sha256:0c4c0773c0db0987300f282ee8e84011319eb0ba94eb99256883fc71fd44f007"
+  }
+}
