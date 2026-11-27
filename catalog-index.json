@@ -16324,7 +16324,7 @@
       "version": "0.4.3",
       "visibility": "public",
       "manifest_path": "packages/agents/obf.json",
-      "manifest_sha256": "sha256:9d6c60412919287f897e3569840e55a4e1572c9322c8537fd178124830a7e261",
+      "manifest_sha256": "sha256:12f3edc3567cb88f885acf1302044c13fe9e20d10ded3e8b3217e7987b5ed58b",
       "payload_path": "packages/payloads/obf-0.4.3.json",
       "payload_sha256": "sha256:7c61f2cd6b89f8b5ba52183943656462da9074cb17de919a0e408f0d27a03bce",
       "allowlist_path": "allowlists/obf.json",
@@ -16593,6 +16593,13 @@
               "book-forge"
             ]
           }
+        },
+        "v2_release": {
+          "version": "0.4.4",
+          "source_commit": "f9d82ccc9e91ac8954d386f66673b5867fccabc8",
+          "payload_manifest_ref": "payloads/obf-0.4.4.json",
+          "payload_sha256": "sha256:991f289a454bda14e387284ece303cdca8b590a860180e2188e7569f0c3ab128",
+          "icon_ref": "assets/branding/opl-bookforge-logo.png"
         }
       },
       "payload": {
