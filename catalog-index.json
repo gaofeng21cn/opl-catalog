@@ -22417,7 +22417,7 @@
       "version": "0.4.16",
       "visibility": "public",
       "manifest_path": "packages/applications/photo-steward.json",
-      "manifest_sha256": "sha256:cb590c300bc06d56d71c8d72ae5a437a62f8f7f5f4e06c4ef4e1e75e9042b1b1",
+      "manifest_sha256": "sha256:bdeaac23273af823dc2b027950c8ce75946fd50c2ffb5b8b4f4b87c20b4efb5c",
       "payload_path": "packages/payloads/photo-steward-0.4.16.json",
       "payload_sha256": "sha256:c502eac757130fada0b80dc85e68ab8fbef9c2ab093f7a9478426c722e42eac9",
       "allowlist_path": "allowlists/photo-steward.json",
@@ -22621,7 +22621,14 @@
         },
         "publication_channel_admission": "admitted",
         "owner_package_manifest_ref": "plugins/photo-steward/opl-package.json",
-        "owner_package_descriptor_ref": "opl-package.json"
+        "owner_package_descriptor_ref": "opl-package.json",
+        "v2_release": {
+          "version": "0.4.18",
+          "source_commit": "b8e3d8066ccd6c96e0e484d44974a6f3d239480d",
+          "payload_manifest_ref": "payloads/photo-steward-0.4.18.json",
+          "payload_sha256": "sha256:2f31564cf70627e8ec6faab5968cdd442f59a19f57e714be6d187231b256809e",
+          "icon_ref": "assets/branding/photo-steward-logo.png"
+        }
       },
       "payload": {
         "surface_kind": "opl_package_payload_manifest.v2",
