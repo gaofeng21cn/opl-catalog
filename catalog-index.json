@@ -411,7 +411,7 @@
       "version": "0.1.6",
       "visibility": "public",
       "manifest_path": "packages/applications/agent-session-vault.json",
-      "manifest_sha256": "sha256:cb7cd97a294f9d4366e6334a585f9de55ca47a1dfc0a64e40cb5a348e44cec77",
+      "manifest_sha256": "sha256:b6508a252556df9694e27cf410cd5bc01ab598db928abbbd439d64c44b0a3510",
       "payload_path": "packages/payloads/agent-session-vault-0.1.6.json",
       "payload_sha256": "sha256:7bd7784c65e8a2b5df3a4db15609bc05090fab2652eeeeb5b3829fb519e2da73",
       "allowlist_path": "allowlists/agent-session-vault.json",
@@ -590,7 +590,14 @@
           "owner_plugin_manifest_ref": ".codex-plugin/plugin.json"
         },
         "owner_package_manifest_ref": "opl-package.json",
-        "owner_package_descriptor_ref": "opl-package.json"
+        "owner_package_descriptor_ref": "opl-package.json",
+        "v2_release": {
+          "version": "0.1.7",
+          "source_commit": "786cc4a86e5fe88532b9afeb866b70942c5ce000",
+          "payload_manifest_ref": "payloads/agent-session-vault-0.1.7.json",
+          "payload_sha256": "sha256:c28355b3ea937e92e26ba6740e43fb1550547c4986c83b3799f5c89a035f9efb",
+          "icon_ref": "assets/branding/agent-session-vault-logo.png"
+        }
       },
       "payload": {
         "surface_kind": "opl_package_payload_manifest.v2",
