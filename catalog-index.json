@@ -12,8 +12,8 @@
   ],
   "package_count": 23,
   "counts_by_category": {
-    "agents": 7,
-    "applications": 12,
+    "agents": 8,
+    "applications": 11,
     "extensions": 1,
     "channels": 1,
     "dependencies": 2
@@ -15453,12 +15453,12 @@
     },
     {
       "package_id": "med-autopractice",
-      "category": "applications",
-      "software_type": "application",
+      "category": "agents",
+      "software_type": "agent",
       "version": "0.1.4",
       "visibility": "public",
-      "manifest_path": "packages/applications/med-autopractice.json",
-      "manifest_sha256": "sha256:f2eea6ffc61b3d2c28eb67c1d6e3942c9e27f840abe16f55d1061cf9cca1b708",
+      "manifest_path": "packages/agents/med-autopractice.json",
+      "manifest_sha256": "sha256:7013fdc5549cbc0492cb59d7330748016b37955945dedb7f00d55ea91a6c646c",
       "payload_path": "packages/payloads/med-autopractice-0.1.4.json",
       "payload_sha256": "sha256:2bf994877431273e51ea767878938712cbfa9898b82e4763538a1dfe5db4482b",
       "allowlist_path": "allowlists/med-autopractice.json",
@@ -15489,7 +15489,7 @@
             "en-US": "Tell MAP what you want to do. It can structure records you have, resume a task under review, or check your site configuration and help verify the operation you need."
           },
           "home_shortcuts": [],
-          "software_type": "application",
+          "software_type": "agent",
           "icon_ref": "assets/branding/medautopractice-logo.png"
         },
         "capability_abi": {

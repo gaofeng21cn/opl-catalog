@@ -24,7 +24,7 @@
       "en-US": "Tell MAP what you want to do. It can structure records you have, resume a task under review, or check your site configuration and help verify the operation you need."
     },
     "home_shortcuts": [],
-    "software_type": "application",
+    "software_type": "agent",
     "icon_ref": "assets/branding/medautopractice-logo.png"
   },
   "capability_abi": {
