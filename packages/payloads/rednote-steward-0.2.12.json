@@ -1,0 +1,15 @@
+{
+  "package_format": "v2",
+  "package_id": "rednote-steward",
+  "package_version": "0.2.12",
+  "source_commit": "634dfbf347c48b4d5d52edd185f64cfb1cd09cbf",
+  "source_repo": "https://github.com/gaofeng21cn/rednote-steward.git",
+  "source_root": ".",
+  "archive_sha256": "sha256:c455e2ca8552f759e42dfac8cadacad9fe3cf1d9bf6c897fb2c6c3b18507c40f",
+  "file_count": 104,
+  "content_lock": {
+    "algorithm": "sha256",
+    "canonicalization": "ordered_path_length_file_length_bytes",
+    "digest": "sha256:f70c8e4140cdfcbc910e5ad21c2040447482bce7190db7fac80f1a911f706e4b"
+  }
+}
