@@ -26,7 +26,7 @@
       "version": "0.1.3",
       "visibility": "public",
       "manifest_path": "packages/applications/agent-old-photo-workflow.json",
-      "manifest_sha256": "sha256:fa42803cf73fc410aca812a0a337ed264bc1cfd84263458ff62dc4dab7dc80ff",
+      "manifest_sha256": "sha256:2c1b7b6f3d2b3e589b27df8d747dfb25b3b17f91d0fe15e83108ff1ffd69cc37",
       "payload_path": "packages/payloads/agent-old-photo-workflow-0.1.3.json",
       "payload_sha256": "sha256:3e88ab79f3c26224af8dd6c00f3e69f6d3b2f649f1183f4e6cbdd859dd1b8001",
       "allowlist_path": "allowlists/agent-old-photo-workflow.json",
@@ -186,7 +186,14 @@
           "owner_plugin_manifest_ref": ".codex-plugin/plugin.json"
         },
         "owner_package_manifest_ref": "opl-package.json",
-        "owner_package_descriptor_ref": "opl-package.json"
+        "owner_package_descriptor_ref": "opl-package.json",
+        "v2_release": {
+          "version": "0.1.4",
+          "source_commit": "b7b34e068b5eaac71b64344c2fb1b0bf131d344a",
+          "payload_manifest_ref": "payloads/agent-old-photo-workflow-0.1.4.json",
+          "payload_sha256": "sha256:5ae50aef3121856c3850ad94d8b510a630ce81e86f34270bbfe4e1d8bfffe828",
+          "icon_ref": "assets/branding/agent-old-photo-workflow-logo.png"
+        }
       },
       "payload": {
         "surface_kind": "opl_package_payload_manifest.v2",

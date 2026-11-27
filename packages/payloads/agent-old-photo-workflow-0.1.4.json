@@ -1,0 +1,15 @@
+{
+  "package_format": "v2",
+  "package_id": "agent-old-photo-workflow",
+  "package_version": "0.1.4",
+  "source_commit": "b7b34e068b5eaac71b64344c2fb1b0bf131d344a",
+  "source_repo": "https://github.com/gaofeng21cn/agent-old-photo-workflow.git",
+  "source_root": ".",
+  "archive_sha256": "sha256:1f8dbb883a15bf31310843b06a7cdc7b695078f6396a7716c38156ca2022d673",
+  "file_count": 34,
+  "content_lock": {
+    "algorithm": "sha256",
+    "canonicalization": "ordered_path_length_file_length_bytes",
+    "digest": "sha256:317731db9cf175950ec5b5dbfa915afc7575b045222f82d6dc1eb54e29a8f872"
+  }
+}
