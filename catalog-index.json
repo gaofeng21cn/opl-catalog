@@ -20807,7 +20807,7 @@
       "version": "0.5.5",
       "visibility": "public",
       "manifest_path": "packages/applications/opl-persona.json",
-      "manifest_sha256": "sha256:3c933b99d438703c0bc144f6c266f5684d7e87e667de2ef13e39e348f45dc853",
+      "manifest_sha256": "sha256:4eb52b088fe4221e8bc4228da78cd962e4ede48c1771605ae5da626f0084ffaf",
       "payload_path": "packages/payloads/opl-persona-0.5.5.json",
       "payload_sha256": "sha256:650e79b5f78a28cd5ea997be67776eb0003994be8b74c4f8abde36c85d51547d",
       "allowlist_path": "allowlists/opl-persona.json",
@@ -21342,6 +21342,13 @@
           },
           "home_shortcuts": [],
           "software_type": "application",
+          "icon_ref": "assets/icon.png"
+        },
+        "v2_release": {
+          "version": "0.5.6",
+          "source_commit": "f3b62c519b960c3f911d079fcf77f4d30fa56291",
+          "payload_manifest_ref": "payloads/opl-persona-0.5.6.json",
+          "payload_sha256": "sha256:13b5023b16b08ae4503a7a589988dc5272b253a0a27204aa5c86f8ceb2068236",
           "icon_ref": "assets/icon.png"
         }
       },
