@@ -1,6 +1,5 @@
 {
   "glkvm-native": "https://github.com/gaofeng21cn/glkvm-native.git",
   "iphone-steward": "https://github.com/gaofeng21cn/iphone-app-steward.git",
-  "occ": "https://github.com/gaofeng21cn/opl-capital-compass.git",
-  "opl-link-desktop-connector": "https://github.com/gaofeng21cn/opl-link.git"
+  "occ": "https://github.com/gaofeng21cn/opl-capital-compass.git"
 }

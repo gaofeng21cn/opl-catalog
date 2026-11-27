@@ -122,15 +122,6 @@
       "install_owner": "opl_packages",
       "link_path_pattern": "<agent-root>/node_modules/opl-framework",
       "target_owner": "resolved_opl_framework_installation_root",
-      "automatic_action_refs": [
-        "opl packages install oma --json",
-        "opl packages update oma --json",
-        "opl packages repair oma --json",
-        "opl packages status oma --json",
-        "opl system startup-maintenance --json"
-      ],
-      "repair_command_ref": "opl packages link-framework --agent-root <repo> --json",
-      "check_command_ref": "opl packages link-framework --agent-root <repo> --check --json",
       "agent_manifest_framework_dependency_forbidden": true,
       "copies_framework_package": false,
       "installs_second_temporal_tree": false
