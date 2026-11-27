@@ -411,10 +411,10 @@
     "owner_plugin_manifest_ref": "plugins/opl-relay/.codex-plugin/plugin.json"
   },
   "v2_release": {
-    "version": "0.7.11",
-    "source_commit": "91e0f46011061ed7121d3c649a6489868eb2d760",
-    "payload_manifest_ref": "payloads/opl-relay-0.7.11.json",
-    "payload_sha256": "sha256:53997e2d30602c6884655dd05405186464326a0600a83f3f316ea6ca0fcf231d",
+    "version": "0.7.12",
+    "source_commit": "1eefd8b4e287420c6f6424000bfefed268073e8f",
+    "payload_manifest_ref": "payloads/opl-relay-0.7.12.json",
+    "payload_sha256": "sha256:a6c48bf371b4fd612c997f3f71bc6a3b71701bbda822ce593c50a246279dcf87",
     "icon_ref": "assets/icon.png"
   }
 }
