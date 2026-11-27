@@ -236,10 +236,10 @@
     }
   },
   "v2_release": {
-    "version": "0.3.4",
-    "source_commit": "cead8fd7016031c168e7ee611f9a33239e821d15",
-    "payload_manifest_ref": "payloads/mas-0.3.4.json",
-    "payload_sha256": "sha256:39837434d0ed62fe882b3a402fa04ef4aaab27beaeb8effab6bad2df767723d3",
+    "version": "0.3.5",
+    "source_commit": "4c489a0cb42f24248e7f0235f4de5e10ea8aaaaf",
+    "payload_manifest_ref": "payloads/mas-0.3.5.json",
+    "payload_sha256": "sha256:66c724d3c38d25e835de8fa8b9f0779946dc5b0dec98379b5de31c9af12d176b",
     "icon_ref": "assets/branding/medautoscience-logo.png"
   }
 }
