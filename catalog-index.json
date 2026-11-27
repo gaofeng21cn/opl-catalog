@@ -1535,7 +1535,7 @@
       "version": "0.2.3",
       "visibility": "public",
       "manifest_path": "packages/applications/kindle-pilot.json",
-      "manifest_sha256": "sha256:a92ac0ef4c2fb31d435d37927402158d805c48fc537bb878c81aad0553e50385",
+      "manifest_sha256": "sha256:40a2118874dacd9dff304790d819acab5a1d2a20e7d4054edaed3a461e1533f8",
       "payload_path": "packages/payloads/kindle-pilot-0.2.3.json",
       "payload_sha256": "sha256:3b35e09d62bb7a39cbe6f02bf0bd8763930d567044810a514156637e821359d5",
       "allowlist_path": "allowlists/kindle-pilot.json",
@@ -1676,7 +1676,14 @@
           "owner_language_version_ref": "pyproject.toml"
         },
         "owner_package_manifest_ref": "opl-package.json",
-        "owner_package_descriptor_ref": "opl-package.json"
+        "owner_package_descriptor_ref": "opl-package.json",
+        "v2_release": {
+          "version": "0.2.4",
+          "source_commit": "c5e10f0dbb9dab6d80e483fcc14491268b4a685d",
+          "payload_manifest_ref": "payloads/kindle-pilot-0.2.4.json",
+          "payload_sha256": "sha256:c22cccc9052831e49da60aca82eaccedd433ef9c8f8dc3dc97aeb1a39eb93a6b",
+          "icon_ref": "assets/branding/kindle-pilot-logo.png"
+        }
       },
       "payload": {
         "surface_kind": "opl_package_payload_manifest.v2",

@@ -1,0 +1,15 @@
+{
+  "package_format": "v2",
+  "package_id": "kindle-pilot",
+  "package_version": "0.2.4",
+  "source_commit": "c5e10f0dbb9dab6d80e483fcc14491268b4a685d",
+  "source_repo": "https://github.com/gaofeng21cn/kindle-pilot.git",
+  "source_root": ".",
+  "archive_sha256": "sha256:a346f263cf70d789b8965e9e09ab1924c901752108f72d6f5448bad0ab79fbf2",
+  "file_count": 64,
+  "content_lock": {
+    "algorithm": "sha256",
+    "canonicalization": "ordered_path_length_file_length_bytes",
+    "digest": "sha256:ea034d8b0ff5f9afa49a88038c20a6e9f7e85916f18b9af947d951d6080baf6b"
+  }
+}
