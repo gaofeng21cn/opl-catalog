@@ -13,6 +13,7 @@ assert.equal(index.catalog_id, 'public-registry:opl');
 
 for (const entry of index.packages) {
   assert.notEqual(entry.package_id, 'opl-channel-weixin', 'opl-channel-weixin is a native Studio DSH plugin, not a catalog package');
+  assert.notEqual(entry.package_id, 'opl-link-desktop-connector', 'opl-link-desktop-connector is retired and must not appear in the catalog');
   assert.match(entry.manifest_sha256, /^sha256:[0-9a-f]{64}$/);
   if (entry.payload_path) {
     assert.match(entry.payload_sha256, /^sha256:[0-9a-f]{64}$/);
