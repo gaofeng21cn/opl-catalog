@@ -157,5 +157,11 @@
     },
     "home_shortcuts": [],
     "software_type": "application"
+  },
+  "v2_release": {
+    "version": "0.2.57",
+    "source_commit": "510e6f09df0871bab06148fa68c79002089f6602",
+    "payload_manifest_ref": "payloads/opl-fleet-agent-0.2.57.json",
+    "payload_sha256": "sha256:006e6aa70f00b7f1daf7ef5646a2559f60c5a70e9b2add5e16357ad520f504af"
   }
 }
