@@ -1,0 +1,15 @@
+{
+  "package_format": "v2",
+  "package_id": "med-autopractice",
+  "package_version": "0.1.8",
+  "source_commit": "5b2c10ae48e48e59ec3608fee316682cbea1bbcc",
+  "source_repo": "https://github.com/gaofeng21cn/med-autopractice.git",
+  "source_root": ".",
+  "archive_sha256": "sha256:fa009556673151896920ff8a2d8a0e4ab0b90dce354a6ddee89da0f1d02c0de3",
+  "file_count": 161,
+  "content_lock": {
+    "algorithm": "sha256",
+    "canonicalization": "ordered_path_length_file_length_bytes",
+    "digest": "sha256:c83ef461abf9ecb0ee0a864712c1a64fa063db78e4bc60d0e59943c828b762cc"
+  }
+}
