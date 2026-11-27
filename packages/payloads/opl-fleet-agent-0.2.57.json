@@ -1,0 +1,15 @@
+{
+  "package_format": "v2",
+  "package_id": "opl-fleet-agent",
+  "package_version": "0.2.57",
+  "source_commit": "510e6f09df0871bab06148fa68c79002089f6602",
+  "source_repo": "https://github.com/gaofeng21cn/opl-fleet-agent.git",
+  "source_root": "plugins/opl-fleet-agent",
+  "archive_sha256": "sha256:bb10b08c59a283ce05965d863e4105f6e4b1b0de5c50b50a63b16d76e58f0f0d",
+  "file_count": 9,
+  "content_lock": {
+    "algorithm": "sha256",
+    "canonicalization": "ordered_path_length_file_length_bytes",
+    "digest": "sha256:892b082d726c05bcdb5a36ae56ff4956c301a46a53bebabf355bd233ce2a2fd0"
+  }
+}

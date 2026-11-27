@@ -19408,7 +19408,7 @@
       "version": "0.2.56",
       "visibility": "public",
       "manifest_path": "packages/applications/opl-fleet-agent.json",
-      "manifest_sha256": "sha256:a14d1c29b17529cd7f20f79eb77fb67aa6c44ca7559d8d95adfcce0615a6d2ad",
+      "manifest_sha256": "sha256:81fb4c6604ecc050308881eba9b86cb41d12f529ce75a4841dfd3ac4f4b61448",
       "payload_path": "packages/payloads/opl-fleet-agent-0.2.56.json",
       "payload_sha256": "sha256:4f6d2ffcc8ef60aec722a05f3a68a633e2c370502d3371e061daffdafe6229e1",
       "allowlist_path": "allowlists/opl-fleet-agent.json",
@@ -19572,6 +19572,12 @@
           },
           "home_shortcuts": [],
           "software_type": "application"
+        },
+        "v2_release": {
+          "version": "0.2.57",
+          "source_commit": "510e6f09df0871bab06148fa68c79002089f6602",
+          "payload_manifest_ref": "payloads/opl-fleet-agent-0.2.57.json",
+          "payload_sha256": "sha256:006e6aa70f00b7f1daf7ef5646a2559f60c5a70e9b2add5e16357ad520f504af"
         }
       },
       "payload": {
