@@ -1,0 +1,15 @@
+{
+  "package_format": "v2",
+  "package_id": "occ",
+  "package_version": "0.2.6",
+  "source_commit": "a953bbfaf21306e6350392a91d4361bdb583fc1d",
+  "source_repo": "https://github.com/gaofeng21cn/opl-capital-compass.git",
+  "source_root": ".",
+  "archive_sha256": "sha256:7ce853e82b34e4917c8588ed699c68a890c5639a0d75f398b60984d5bd28bc11",
+  "file_count": 134,
+  "content_lock": {
+    "algorithm": "sha256",
+    "canonicalization": "ordered_path_length_file_length_bytes",
+    "digest": "sha256:935bdce0726bc34af27b9dde34f5c42f7bb9b03244eff16a268d3139f20a7a52"
+  }
+}

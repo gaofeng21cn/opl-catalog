@@ -18090,7 +18090,7 @@
         }
       },
       "manifest_path": "packages/agents/occ.json",
-      "manifest_sha256": "sha256:d63b2a4145af2da937d8323e764b4cf89bfbd58e7971f15fec001f7bb88c2cda",
+      "manifest_sha256": "sha256:ca1a81639ebda6dbedc80a662503f1ba915727fc0d836c26fe2eda02f5f5f40e",
       "payload_path": "packages/payloads/occ-0.2.4.json",
       "payload_sha256": "sha256:b6b30098626d845801d1605255e8fa0ea866772a97fa098f7912a3a3453bcc89",
       "allowlist_path": "allowlists/occ.json",
@@ -18281,10 +18281,10 @@
           }
         },
         "v2_release": {
-          "version": "0.2.5",
-          "source_commit": "13c4a1d87f36abc0869611c04e8a75306bdfa04e",
-          "payload_manifest_ref": "payloads/occ-0.2.5.json",
-          "payload_sha256": "sha256:e5df3c977da3033df5f1d25659f477ac585eb44a319a71647bacac5c373e9db3"
+          "version": "0.2.6",
+          "source_commit": "a953bbfaf21306e6350392a91d4361bdb583fc1d",
+          "payload_manifest_ref": "payloads/occ-0.2.6.json",
+          "payload_sha256": "sha256:3dcaa747a4000c7ec8746e435805636e007e9ab389cb014e31c0bf916745ef45"
         }
       },
       "payload": {
