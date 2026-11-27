@@ -3,7 +3,7 @@
   "package_id": "mac-media-assets",
   "display_name": "Med Auto Cast Assets",
   "publisher": "one-person-lab",
-  "version": "0.2.12",
+  "version": "0.2.13",
   "source": "first_party_owner_projection",
   "source_repo": "https://github.com/gaofeng21cn/mac-media-assets.git",
   "package_role": "capability_package",
@@ -53,8 +53,8 @@
     "app_contribution_adapter": {
       "manifest": "app-contribution-adapter.json"
     },
-    "plugin_payload_manifest_url": "payloads/mac-media-assets-0.2.12.json",
-    "carrier_source_commit": "9dfd0d3da02afe035fdacf8ae6568a3fe272e66d"
+    "plugin_payload_manifest_url": "payloads/mac-media-assets-0.2.13.json",
+    "carrier_source_commit": "33dd43c7fceeebe4f2fa5ff6354dc2d11cf001da"
   },
   "app_contributions": {
     "schema_version": "opl-app-contributions.v1",
@@ -408,6 +408,7 @@
       "records/paper-theatre/paper_finger_joint_synovitis_v1/c6f7be30536665348bbd/record.json",
       "records/paper-theatre/paper_flexible_endoscope_v1/7c5488dc8e9dd9ca04fe/record.json",
       "records/paper-theatre/paper_folder_stow_v1/7e6342bcf40ff43d560e/record.json",
+      "records/paper-theatre/paper_foreground_desk_v1/aa055a020c2237b7155f/record.json",
       "records/paper-theatre/paper_glucose_chew_tube_v1/1720d6e84c39db4e24b5/record.json",
       "records/paper-theatre/paper_glucose_meter_parts_v1/9b061f3593f5bbe26bb0/record.json",
       "records/paper-theatre/paper_grocery_tote_v1/a99a8aa4bffe5de3bfc8/record.json",
@@ -691,7 +692,7 @@
       "tools/sync_from_workbench.py",
       "tools/verify_catalog.py"
     ],
-    "digest": "sha256:4ad8c4f94f32a5a77d7c2d5ecf30b189ed789b6475d8244f126b5c4e16edb04f"
+    "digest": "sha256:1f1d03de8c792badd7609ba145e8558458f40979d396e0e940b798196b56fe98"
   },
   "entrypoints": [
     {
