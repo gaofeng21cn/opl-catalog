@@ -1,0 +1,15 @@
+{
+  "package_format": "v2",
+  "package_id": "opl-relay",
+  "package_version": "0.7.12",
+  "source_commit": "1eefd8b4e287420c6f6424000bfefed268073e8f",
+  "source_repo": "https://github.com/gaofeng21cn/opl-relay.git",
+  "source_root": ".",
+  "archive_sha256": "sha256:3be589799fa2353e2b78763c4717420a2f6baf04016073b2a19ed3103c52136e",
+  "file_count": 119,
+  "content_lock": {
+    "algorithm": "sha256",
+    "canonicalization": "ordered_path_length_file_length_bytes",
+    "digest": "sha256:ace64d81a4abbd60244a49d48d734bb855e871302279cf717631d0458e7d3160"
+  }
+}
