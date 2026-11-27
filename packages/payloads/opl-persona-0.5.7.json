@@ -1,0 +1,15 @@
+{
+  "package_format": "v2",
+  "package_id": "opl-persona",
+  "package_version": "0.5.7",
+  "source_commit": "42d53ffcbd5a112f93e4c406442d06a68e0aca70",
+  "source_repo": "https://github.com/gaofeng21cn/opl-persona.git",
+  "source_root": ".",
+  "archive_sha256": "sha256:4a70c2fa4492c99239a6369253fbfb807f2b90c1351d904d554256d086ff1c39",
+  "file_count": 72,
+  "content_lock": {
+    "algorithm": "sha256",
+    "canonicalization": "ordered_path_length_file_length_bytes",
+    "digest": "sha256:b673ed96691d7423825edc17ceb7fcfb688e2b7873728db291b3e758efb9411b"
+  }
+}
