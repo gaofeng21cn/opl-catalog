@@ -156,5 +156,12 @@
         "meta-agent"
       ]
     }
+  },
+  "v2_release": {
+    "version": "0.4.16",
+    "source_commit": "d2b8e3cba597afc8893e18a4189fe5d30d6a6609",
+    "payload_manifest_ref": "payloads/oma-0.4.16.json",
+    "payload_sha256": "sha256:17219eb9f4eaa3cdcc7fc7fd0d42c27155e75b1452b3c12855505238b536de11",
+    "icon_ref": "assets/branding/opl-meta-agent-logo.png"
   }
 }
