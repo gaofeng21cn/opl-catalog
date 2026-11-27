@@ -314,5 +314,12 @@
         "redcube-ai"
       ]
     }
+  },
+  "v2_release": {
+    "version": "0.3.6",
+    "source_commit": "31362e825e8ef8c804adb989d9d42c91b3b79d93",
+    "payload_manifest_ref": "payloads/rca-0.3.6.json",
+    "payload_sha256": "sha256:9eaa3ed25cdbef352050b8414ef9d9db42d02ad21038cda383b1d661bf4251b8",
+    "icon_ref": "assets/branding/redcube-ai-logo.png"
   }
 }
