@@ -24611,7 +24611,7 @@
       "version": "0.2.11",
       "visibility": "public",
       "manifest_path": "packages/applications/rednote-steward.json",
-      "manifest_sha256": "sha256:9740808b7620930680815dae0ef58fc6ae81378bbbe8183eaa67c9014a11dbd9",
+      "manifest_sha256": "sha256:03832d11a1ddd49ed48ef7508eeca87a55da30aced5e9a8827bdf82327fc3bd3",
       "payload_path": "packages/payloads/rednote-steward-0.2.11.json",
       "payload_sha256": "sha256:9bb2f46f2ac35c90650efcd08a068d7603da35dce9f7a9b11ab7e4307e563e2f",
       "allowlist_path": "allowlists/rednote-steward.json",
@@ -24900,7 +24900,14 @@
           "owner_plugin_manifest_ref": ".codex-plugin/plugin.json"
         },
         "owner_package_manifest_ref": "opl-package.json",
-        "owner_package_descriptor_ref": "opl-package.json"
+        "owner_package_descriptor_ref": "opl-package.json",
+        "v2_release": {
+          "version": "0.2.12",
+          "source_commit": "634dfbf347c48b4d5d52edd185f64cfb1cd09cbf",
+          "payload_manifest_ref": "payloads/rednote-steward-0.2.12.json",
+          "payload_sha256": "sha256:3a2a710dc043fc13d17a3ab7e707536f2e072939813106201a64155db0c2ea7c",
+          "icon_ref": "assets/branding/rednote-steward-logo-v2.png"
+        }
       },
       "payload": {
         "surface_kind": "opl_package_payload_manifest.v2",

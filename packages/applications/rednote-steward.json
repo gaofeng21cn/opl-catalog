@@ -282,5 +282,12 @@
     "owner_plugin_manifest_ref": ".codex-plugin/plugin.json"
   },
   "owner_package_manifest_ref": "opl-package.json",
-  "owner_package_descriptor_ref": "opl-package.json"
+  "owner_package_descriptor_ref": "opl-package.json",
+  "v2_release": {
+    "version": "0.2.12",
+    "source_commit": "634dfbf347c48b4d5d52edd185f64cfb1cd09cbf",
+    "payload_manifest_ref": "payloads/rednote-steward-0.2.12.json",
+    "payload_sha256": "sha256:3a2a710dc043fc13d17a3ab7e707536f2e072939813106201a64155db0c2ea7c",
+    "icon_ref": "assets/branding/rednote-steward-logo-v2.png"
+  }
 }
