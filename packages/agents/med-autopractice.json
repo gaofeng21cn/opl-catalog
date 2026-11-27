@@ -282,5 +282,12 @@
     "owner_plugin_manifest_ref": ".codex-plugin/plugin.json"
   },
   "owner_package_manifest_ref": "opl-package.json",
-  "owner_package_descriptor_ref": "opl-package.json"
+  "owner_package_descriptor_ref": "opl-package.json",
+  "v2_release": {
+    "version": "0.1.8",
+    "source_commit": "5b2c10ae48e48e59ec3608fee316682cbea1bbcc",
+    "payload_manifest_ref": "payloads/med-autopractice-0.1.8.json",
+    "payload_sha256": "sha256:f45c5cd870961191c2f3ae33adde9f929e9b635878e7a902b408e3b6eeae9147",
+    "icon_ref": "assets/branding/medautopractice-logo.png"
+  }
 }

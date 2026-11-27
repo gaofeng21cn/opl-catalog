@@ -15543,7 +15543,7 @@
       "version": "0.1.7",
       "visibility": "public",
       "manifest_path": "packages/agents/med-autopractice.json",
-      "manifest_sha256": "sha256:bd4126cbc324ce78843363e252d04b788732e7d0e29c40be5f9076c2341f5046",
+      "manifest_sha256": "sha256:15983e5f3848e84db48817a189fbac58a1bc38e55913747ab6711207d3f33347",
       "payload_path": "packages/payloads/med-autopractice-0.1.7.json",
       "payload_sha256": "sha256:bb76b9f929add5cd0678baeb5aa9b99f60c00fe82c7b2f62d032702ab20a3ae0",
       "allowlist_path": "allowlists/med-autopractice.json",
@@ -15832,7 +15832,14 @@
           "owner_plugin_manifest_ref": ".codex-plugin/plugin.json"
         },
         "owner_package_manifest_ref": "opl-package.json",
-        "owner_package_descriptor_ref": "opl-package.json"
+        "owner_package_descriptor_ref": "opl-package.json",
+        "v2_release": {
+          "version": "0.1.8",
+          "source_commit": "5b2c10ae48e48e59ec3608fee316682cbea1bbcc",
+          "payload_manifest_ref": "payloads/med-autopractice-0.1.8.json",
+          "payload_sha256": "sha256:f45c5cd870961191c2f3ae33adde9f929e9b635878e7a902b408e3b6eeae9147",
+          "icon_ref": "assets/branding/medautopractice-logo.png"
+        }
       },
       "payload": {
         "surface_kind": "opl_package_payload_manifest.v2",
