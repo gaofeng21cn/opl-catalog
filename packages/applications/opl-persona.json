@@ -529,5 +529,12 @@
     "home_shortcuts": [],
     "software_type": "application",
     "icon_ref": "assets/icon.png"
+  },
+  "v2_release": {
+    "version": "0.5.6",
+    "source_commit": "f3b62c519b960c3f911d079fcf77f4d30fa56291",
+    "payload_manifest_ref": "payloads/opl-persona-0.5.6.json",
+    "payload_sha256": "sha256:13b5023b16b08ae4503a7a589988dc5272b253a0a27204aa5c86f8ceb2068236",
+    "icon_ref": "assets/icon.png"
   }
 }
