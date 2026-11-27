@@ -10801,7 +10801,7 @@
       "version": "0.2.33",
       "visibility": "public",
       "manifest_path": "packages/dependencies/mas-scholar-skills.json",
-      "manifest_sha256": "sha256:433a6889df623cb713e7dc79ee9992aee9e280618b1cd57d821f737033dfd2c4",
+      "manifest_sha256": "sha256:0bad0b2f4674c31dece74271b7dc48af7461640965c365b6dbf79fd69e1f2a13",
       "payload_path": "packages/payloads/mas-scholar-skills-0.2.33.json",
       "payload_sha256": "sha256:35eea4a348e2587db6e269793d0ee06177b58b3c9804cb73f3dee2ab63dfe729",
       "allowlist_path": "allowlists/mas-scholar-skills.json",
@@ -11378,6 +11378,13 @@
           },
           "home_shortcuts": [],
           "software_type": "dependency"
+        },
+        "v2_release": {
+          "version": "0.2.34",
+          "source_commit": "33471f43626ef52404dd8bf1b507a4efc755a36e",
+          "payload_manifest_ref": "payloads/mas-scholar-skills-0.2.34.json",
+          "payload_sha256": "sha256:4ff56697eea0ba4670708ad6b90de290b3a0265fe04c9aa84d86fb92db02c243",
+          "icon_ref": "assets/branding/mas-scholar-skills-logo.png"
         }
       },
       "payload": {
