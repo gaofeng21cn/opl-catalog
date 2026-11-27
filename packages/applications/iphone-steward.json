@@ -174,5 +174,11 @@
     "owner_plugin_manifest_ref": ".codex-plugin/plugin.json"
   },
   "owner_package_manifest_ref": "plugins/iphone-app-steward/opl-package.json",
-  "owner_package_descriptor_ref": "opl-package.json"
+  "owner_package_descriptor_ref": "opl-package.json",
+  "v2_release": {
+    "version": "0.2.11",
+    "source_commit": "2503321ede73521602f7c338bfbf1c8c1b03687e",
+    "payload_manifest_ref": "payloads/iphone-steward-0.2.11.json",
+    "payload_sha256": "sha256:6629dac0ff3568a82a1fccf87b794934890e097151decd1014bd43b3963d0907"
+  }
 }

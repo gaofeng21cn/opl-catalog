@@ -1,0 +1,15 @@
+{
+  "package_format": "v2",
+  "package_id": "iphone-steward",
+  "package_version": "0.2.11",
+  "source_commit": "2503321ede73521602f7c338bfbf1c8c1b03687e",
+  "source_repo": "https://github.com/gaofeng21cn/iphone-app-steward.git",
+  "source_root": ".",
+  "archive_sha256": "sha256:8062b7dca4c4c0f1840b45414dd0803291d067247924dc1f70e15bedc28d8380",
+  "file_count": 35,
+  "content_lock": {
+    "algorithm": "sha256",
+    "canonicalization": "ordered_path_length_file_length_bytes",
+    "digest": "sha256:9cdb62a6516128e254e2ae874f4ff45b22538b018b03747f81cbb18663244205"
+  }
+}
