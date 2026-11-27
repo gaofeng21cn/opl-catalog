@@ -6998,7 +6998,7 @@
       "version": "0.4.4",
       "visibility": "public",
       "manifest_path": "packages/agents/mag.json",
-      "manifest_sha256": "sha256:61a7baf32a5ac4fe83da6b35498c03b9529fe276a514446efba77832038654cb",
+      "manifest_sha256": "sha256:548ae6b85b9e3039ac540151a3ca5ae53eb147e5ed498b10200ff46b6c9c9072",
       "payload_path": "packages/payloads/mag-0.4.4.json",
       "payload_sha256": "sha256:c45eed485539fa53db1280e60d90b4d4886671761fc3449b2845bf87388f586e",
       "allowlist_path": "allowlists/mag.json",
@@ -7307,6 +7307,13 @@
               "med-auto-grant"
             ]
           }
+        },
+        "v2_release": {
+          "version": "0.4.5",
+          "source_commit": "1d21015c9c1384ba10624d9b833905ffe61c8ddf",
+          "payload_manifest_ref": "payloads/mag-0.4.5.json",
+          "payload_sha256": "sha256:6d076bedadae7c5685cafaa4b074e083ba8af842c813833427df5c8a2fc26f5d",
+          "icon_ref": "assets/branding/medautogrant-logo.png"
         }
       },
       "payload": {
