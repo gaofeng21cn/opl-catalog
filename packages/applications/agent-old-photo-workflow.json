@@ -153,5 +153,12 @@
     "owner_plugin_manifest_ref": ".codex-plugin/plugin.json"
   },
   "owner_package_manifest_ref": "opl-package.json",
-  "owner_package_descriptor_ref": "opl-package.json"
+  "owner_package_descriptor_ref": "opl-package.json",
+  "v2_release": {
+    "version": "0.1.4",
+    "source_commit": "b7b34e068b5eaac71b64344c2fb1b0bf131d344a",
+    "payload_manifest_ref": "payloads/agent-old-photo-workflow-0.1.4.json",
+    "payload_sha256": "sha256:5ae50aef3121856c3850ad94d8b510a630ce81e86f34270bbfe4e1d8bfffe828",
+    "icon_ref": "assets/branding/agent-old-photo-workflow-logo.png"
+  }
 }
