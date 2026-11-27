@@ -22652,7 +22652,7 @@
       "version": "0.3.5",
       "visibility": "public",
       "manifest_path": "packages/agents/rca.json",
-      "manifest_sha256": "sha256:54c05bf621d613982b502d4b5e4e9cbce6f16010c903008eb4e6ee199c6af6fd",
+      "manifest_sha256": "sha256:5e9bd22515509d13d796b6f20c5ca4433ec9dce4165518d56e6306e8cb084515",
       "payload_path": "packages/payloads/rca-0.3.5.json",
       "payload_sha256": "sha256:0120dcff7b2427ed034a00fc9ff2ab318b825809bfdd6b018e21e2c96f991e9a",
       "allowlist_path": "allowlists/rca.json",
@@ -22975,10 +22975,10 @@
           }
         },
         "v2_release": {
-          "version": "0.3.6",
-          "source_commit": "31362e825e8ef8c804adb989d9d42c91b3b79d93",
-          "payload_manifest_ref": "payloads/rca-0.3.6.json",
-          "payload_sha256": "sha256:9eaa3ed25cdbef352050b8414ef9d9db42d02ad21038cda383b1d661bf4251b8",
+          "version": "0.3.7",
+          "source_commit": "08504287e0122be4375eee83e73c6fee9703917b",
+          "payload_manifest_ref": "payloads/rca-0.3.7.json",
+          "payload_sha256": "sha256:82f690b9025888f1f59feed9e39591ce15b31a03745f03a776a4d9f0b4c0ab2e",
           "icon_ref": "assets/branding/redcube-ai-logo.png"
         }
       },
