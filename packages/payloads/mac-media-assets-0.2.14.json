@@ -1,0 +1,15 @@
+{
+  "package_format": "v2",
+  "package_id": "mac-media-assets",
+  "package_version": "0.2.14",
+  "source_commit": "9dd742882812a3c5e6b66d78156a102c9cf86bda",
+  "source_repo": "https://github.com/gaofeng21cn/mac-media-assets.git",
+  "source_root": ".",
+  "archive_sha256": "sha256:083dcc459f3808b580a85d7bcc5b9cd9db2db6dadf49f0f643724a7d10286253",
+  "file_count": 1082,
+  "content_lock": {
+    "algorithm": "sha256",
+    "canonicalization": "ordered_path_length_file_length_bytes",
+    "digest": "sha256:600b09fbc7db05512bf930af2f2c244d29229af04300e6fde063ff91fc579c18"
+  }
+}

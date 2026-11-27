@@ -2064,7 +2064,7 @@
       "version": "0.2.13",
       "visibility": "public",
       "manifest_path": "packages/dependencies/mac-media-assets.json",
-      "manifest_sha256": "sha256:3330d5a7e2f6e8e3d0deeec98c706cac6d3f2900ef8be8acea49621da1f32e37",
+      "manifest_sha256": "sha256:4f8d1f2f1f768963fcdad0f652f09e6d7188225f2f09af6f7c473b1f69728aa1",
       "payload_path": "packages/payloads/mac-media-assets-0.2.13.json",
       "payload_sha256": "sha256:26f43a1421d35ccb3d344d35119db45c53ec318ab562110927ca2423750bf5fd",
       "allowlist_path": "allowlists/mac-media-assets.json",
@@ -2819,7 +2819,14 @@
         },
         "owner_package_manifest_ref": "contracts/opl_capability_package_manifest.json",
         "owner_package_descriptor_ref": "opl-package.json",
-        "source_manifest_ref": "mac-media-assets/contracts/opl_capability_package_manifest.json"
+        "source_manifest_ref": "mac-media-assets/contracts/opl_capability_package_manifest.json",
+        "v2_release": {
+          "version": "0.2.14",
+          "source_commit": "9dd742882812a3c5e6b66d78156a102c9cf86bda",
+          "payload_manifest_ref": "payloads/mac-media-assets-0.2.14.json",
+          "payload_sha256": "sha256:dc2b121c5e36af2ae95c00c9d773c0a7b24cf3da8168542f0dbae528e90197b9",
+          "icon_ref": "assets/branding/mac-media-assets-logo.png"
+        }
       },
       "payload": {
         "surface_kind": "opl_package_payload_manifest.v2",
