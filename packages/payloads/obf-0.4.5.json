@@ -1,0 +1,15 @@
+{
+  "package_format": "v2",
+  "package_id": "obf",
+  "package_version": "0.4.5",
+  "source_commit": "4398887b58c84290e505fc1abe9435776025262f",
+  "source_repo": "https://github.com/gaofeng21cn/opl-bookforge.git",
+  "source_root": ".",
+  "archive_sha256": "sha256:46526abbb4521b114d98425d1301c934763735b2d3876e55b945fa553ea58701",
+  "file_count": 180,
+  "content_lock": {
+    "algorithm": "sha256",
+    "canonicalization": "ordered_path_length_file_length_bytes",
+    "digest": "sha256:258f30684bcb23be2d80aeecfa2f20af01990529214167abb784180e0fe52d91"
+  }
+}
