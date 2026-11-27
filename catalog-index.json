@@ -18837,12 +18837,12 @@
       "package_id": "opl-fleet-agent",
       "category": "applications",
       "software_type": "application",
-      "version": "0.2.55",
+      "version": "0.2.56",
       "visibility": "public",
       "manifest_path": "packages/applications/opl-fleet-agent.json",
-      "manifest_sha256": "sha256:c706f05c1657e55159630db60a9788064376b27f82430aa7b444c5e52c1bc268",
-      "payload_path": "packages/payloads/opl-fleet-agent-0.2.55.json",
-      "payload_sha256": "sha256:69311d63d607c5d4ff9e997ecd5d8cd1e01b794b5da036119e21d456301b97fb",
+      "manifest_sha256": "sha256:a14d1c29b17529cd7f20f79eb77fb67aa6c44ca7559d8d95adfcce0615a6d2ad",
+      "payload_path": "packages/payloads/opl-fleet-agent-0.2.56.json",
+      "payload_sha256": "sha256:4f6d2ffcc8ef60aec722a05f3a68a633e2c370502d3371e061daffdafe6229e1",
       "allowlist_path": "allowlists/opl-fleet-agent.json",
       "allowlist_sha256": "sha256:ec62c40aa50227bc7aa5b85fe9337a989c4dbdca6fca4b25fa34d62b7c327d53",
       "manifest": {
@@ -18850,7 +18850,7 @@
         "package_id": "opl-fleet-agent",
         "display_name": "OPL Fleet Agent Integration",
         "publisher": "one-person-lab",
-        "version": "0.2.55",
+        "version": "0.2.56",
         "source": "first_party",
         "package_role": "capability_package",
         "management_scope": "local_component",
@@ -18884,7 +18884,7 @@
             "skills/opl-fleet-agent/SKILL.md",
             "skills/opl-fleet-agent/agents/openai.yaml"
           ],
-          "digest": "sha256:86acd9ca0162c9f48764047ed63814de2a49081ca35eb4a100358f3dc9218718"
+          "digest": "sha256:a94e4705345fb02522ae642285cbc5de75dec3c46be59abe7190f6dd83dad06b"
         },
         "codex_surface": {
           "plugin_id": "opl-fleet-agent",
@@ -18912,8 +18912,8 @@
           "app_contribution_adapter": {
             "manifest": "app-contribution-adapter.json"
           },
-          "plugin_payload_manifest_url": "payloads/opl-fleet-agent-0.2.55.json",
-          "carrier_source_commit": "33ff266cafd960fea101e80bafc74f0700dfadf1"
+          "plugin_payload_manifest_url": "payloads/opl-fleet-agent-0.2.56.json",
+          "carrier_source_commit": "b84ba76b69a776afb6ceb049afa1b16fbf2e40ee"
         },
         "app_contributions": {
           "schema_version": "opl-app-contributions.v1",
@@ -19011,50 +19011,50 @@
         "schema_ref": "contracts/opl-framework/package-payload-manifest-v2.schema.json",
         "package_id": "opl-fleet-agent",
         "plugin_id": "opl-fleet-agent",
-        "package_version": "0.2.55",
+        "package_version": "0.2.56",
         "source_repo": "https://github.com/gaofeng21cn/opl-fleet-agent.git",
-        "source_commit": "33ff266cafd960fea101e80bafc74f0700dfadf1",
+        "source_commit": "b84ba76b69a776afb6ceb049afa1b16fbf2e40ee",
         "source_root": "plugins/opl-fleet-agent",
         "content_lock": {
           "algorithm": "sha256",
           "canonicalization": "ordered_path_length_file_length_bytes",
-          "digest": "sha256:86acd9ca0162c9f48764047ed63814de2a49081ca35eb4a100358f3dc9218718"
+          "digest": "sha256:a94e4705345fb02522ae642285cbc5de75dec3c46be59abe7190f6dd83dad06b"
         },
         "files": [
           {
             "path": ".codex-plugin/plugin.json",
             "mode": "100644",
-            "source_url": "https://raw.githubusercontent.com/gaofeng21cn/opl-fleet-agent/33ff266cafd960fea101e80bafc74f0700dfadf1/plugins/opl-fleet-agent/.codex-plugin/plugin.json",
-            "sha256": "sha256:106884a9e0603d9d39ef04c525410969b31436996cb31c58260eb6d20c492e72"
+            "source_url": "https://raw.githubusercontent.com/gaofeng21cn/opl-fleet-agent/b84ba76b69a776afb6ceb049afa1b16fbf2e40ee/plugins/opl-fleet-agent/.codex-plugin/plugin.json",
+            "sha256": "sha256:f0226aee1f4d6584f58047c7b997bb200ec8d99f6261ab12be1685cde4ec853e"
           },
           {
             "path": "app-contribution-adapter.json",
             "mode": "100644",
-            "source_url": "https://raw.githubusercontent.com/gaofeng21cn/opl-fleet-agent/33ff266cafd960fea101e80bafc74f0700dfadf1/plugins/opl-fleet-agent/app-contribution-adapter.json",
+            "source_url": "https://raw.githubusercontent.com/gaofeng21cn/opl-fleet-agent/b84ba76b69a776afb6ceb049afa1b16fbf2e40ee/plugins/opl-fleet-agent/app-contribution-adapter.json",
             "sha256": "sha256:f070985539a520715730a5d15c42793257e2793756d10d53ad8d582f930b180c"
           },
           {
             "path": "bin/opl-fleet-agent.mjs",
             "mode": "100644",
-            "source_url": "https://raw.githubusercontent.com/gaofeng21cn/opl-fleet-agent/33ff266cafd960fea101e80bafc74f0700dfadf1/plugins/opl-fleet-agent/bin/opl-fleet-agent.mjs",
+            "source_url": "https://raw.githubusercontent.com/gaofeng21cn/opl-fleet-agent/b84ba76b69a776afb6ceb049afa1b16fbf2e40ee/plugins/opl-fleet-agent/bin/opl-fleet-agent.mjs",
             "sha256": "sha256:15ecd5ed8f6814a8742c436f2e1f54359a2ac4b44d853bf8365250797c56abef"
           },
           {
             "path": "plugin.json",
             "mode": "100644",
-            "source_url": "https://raw.githubusercontent.com/gaofeng21cn/opl-fleet-agent/33ff266cafd960fea101e80bafc74f0700dfadf1/plugins/opl-fleet-agent/plugin.json",
-            "sha256": "sha256:15455c13bb11a044a768120ccb9eb00e01d64a374f2aaf53feebf1375ae21974"
+            "source_url": "https://raw.githubusercontent.com/gaofeng21cn/opl-fleet-agent/b84ba76b69a776afb6ceb049afa1b16fbf2e40ee/plugins/opl-fleet-agent/plugin.json",
+            "sha256": "sha256:9135eb3eb6c2bb9b569bde4364c0b2e11d7e37ccff0e17b9d958406330046c0e"
           },
           {
             "path": "skills/opl-fleet-agent/SKILL.md",
             "mode": "100644",
-            "source_url": "https://raw.githubusercontent.com/gaofeng21cn/opl-fleet-agent/33ff266cafd960fea101e80bafc74f0700dfadf1/plugins/opl-fleet-agent/skills/opl-fleet-agent/SKILL.md",
+            "source_url": "https://raw.githubusercontent.com/gaofeng21cn/opl-fleet-agent/b84ba76b69a776afb6ceb049afa1b16fbf2e40ee/plugins/opl-fleet-agent/skills/opl-fleet-agent/SKILL.md",
             "sha256": "sha256:d4d4d4bf5627267b740ee934741ee5d438aba29f012e35677291f1846b600c3d"
           },
           {
             "path": "skills/opl-fleet-agent/agents/openai.yaml",
             "mode": "100644",
-            "source_url": "https://raw.githubusercontent.com/gaofeng21cn/opl-fleet-agent/33ff266cafd960fea101e80bafc74f0700dfadf1/plugins/opl-fleet-agent/skills/opl-fleet-agent/agents/openai.yaml",
+            "source_url": "https://raw.githubusercontent.com/gaofeng21cn/opl-fleet-agent/b84ba76b69a776afb6ceb049afa1b16fbf2e40ee/plugins/opl-fleet-agent/skills/opl-fleet-agent/agents/openai.yaml",
             "sha256": "sha256:cbaa0756a8350df6f2c8b4829b9c4a483ec0fe8bb7afca0cf56c1140e080b09b"
           }
         ]
