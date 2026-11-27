@@ -1,0 +1,15 @@
+{
+  "package_format": "v2",
+  "package_id": "rca",
+  "package_version": "0.3.7",
+  "source_commit": "08504287e0122be4375eee83e73c6fee9703917b",
+  "source_repo": "https://github.com/gaofeng21cn/redcube-ai.git",
+  "source_root": ".",
+  "archive_sha256": "sha256:42840b97811ebc90d33caf9622c4a5777327101cff65c3cda1f5a5d4580a2e9f",
+  "file_count": 343,
+  "content_lock": {
+    "algorithm": "sha256",
+    "canonicalization": "ordered_path_length_file_length_bytes",
+    "digest": "sha256:e22b4db7a50cae61914c1203ae78c3b1933c115a455b88fa1fc4a1046ef90ad3"
+  }
+}
