@@ -409,5 +409,12 @@
     "module_id": "oplrelay",
     "owner_package_manifest_ref": "plugins/opl-relay/opl-package.json",
     "owner_plugin_manifest_ref": "plugins/opl-relay/.codex-plugin/plugin.json"
+  },
+  "v2_release": {
+    "version": "0.7.11",
+    "source_commit": "91e0f46011061ed7121d3c649a6489868eb2d760",
+    "payload_manifest_ref": "payloads/opl-relay-0.7.11.json",
+    "payload_sha256": "sha256:53997e2d30602c6884655dd05405186464326a0600a83f3f316ea6ca0fcf231d",
+    "icon_ref": "assets/icon.png"
   }
 }
