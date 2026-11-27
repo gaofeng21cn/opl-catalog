@@ -1,0 +1,15 @@
+{
+  "package_format": "v2",
+  "package_id": "agent-session-vault",
+  "package_version": "0.1.7",
+  "source_commit": "786cc4a86e5fe88532b9afeb866b70942c5ce000",
+  "source_repo": "https://github.com/gaofeng21cn/agent-session-vault.git",
+  "source_root": ".",
+  "archive_sha256": "sha256:ef7434d5d0abd07261fe6be9da8d63ce9df57a18f76e77c427f2e233401bf3a0",
+  "file_count": 79,
+  "content_lock": {
+    "algorithm": "sha256",
+    "canonicalization": "ordered_path_length_file_length_bytes",
+    "digest": "sha256:81301cec563db583c2033180f61a21c101bf44e3cf8c8bca436e05d7862f9d6b"
+  }
+}

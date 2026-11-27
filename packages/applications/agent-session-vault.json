@@ -172,5 +172,12 @@
     "owner_plugin_manifest_ref": ".codex-plugin/plugin.json"
   },
   "owner_package_manifest_ref": "opl-package.json",
-  "owner_package_descriptor_ref": "opl-package.json"
+  "owner_package_descriptor_ref": "opl-package.json",
+  "v2_release": {
+    "version": "0.1.7",
+    "source_commit": "786cc4a86e5fe88532b9afeb866b70942c5ce000",
+    "payload_manifest_ref": "payloads/agent-session-vault-0.1.7.json",
+    "payload_sha256": "sha256:c28355b3ea937e92e26ba6740e43fb1550547c4986c83b3799f5c89a035f9efb",
+    "icon_ref": "assets/branding/agent-session-vault-logo.png"
+  }
 }
