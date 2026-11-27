@@ -1,0 +1,15 @@
+{
+  "package_format": "v2",
+  "package_id": "photo-steward",
+  "package_version": "0.4.18",
+  "source_commit": "b8e3d8066ccd6c96e0e484d44974a6f3d239480d",
+  "source_repo": "https://github.com/gaofeng21cn/photo-steward.git",
+  "source_root": ".",
+  "archive_sha256": "sha256:4df963a13bea57e8d236f11fdeb9484e475ed899b338f3fc708f6b3c42ecbaa9",
+  "file_count": 117,
+  "content_lock": {
+    "algorithm": "sha256",
+    "canonicalization": "ordered_path_length_file_length_bytes",
+    "digest": "sha256:8e46d2f54adab216894d31ecc653ddb7533211550a99c5a067deb261a64015b6"
+  }
+}

@@ -197,5 +197,12 @@
   },
   "publication_channel_admission": "admitted",
   "owner_package_manifest_ref": "plugins/photo-steward/opl-package.json",
-  "owner_package_descriptor_ref": "opl-package.json"
+  "owner_package_descriptor_ref": "opl-package.json",
+  "v2_release": {
+    "version": "0.4.18",
+    "source_commit": "b8e3d8066ccd6c96e0e484d44974a6f3d239480d",
+    "payload_manifest_ref": "payloads/photo-steward-0.4.18.json",
+    "payload_sha256": "sha256:2f31564cf70627e8ec6faab5968cdd442f59a19f57e714be6d187231b256809e",
+    "icon_ref": "assets/branding/photo-steward-logo.png"
+  }
 }
