@@ -8955,7 +8955,7 @@
       "version": "0.3.3",
       "visibility": "public",
       "manifest_path": "packages/agents/mas.json",
-      "manifest_sha256": "sha256:e5312272410fc1d36618de3ea4f7c0093ef9488b8eed8b087c3a6b335b39e93c",
+      "manifest_sha256": "sha256:e18d239fc94a5f72a95a04f5325005a0ae963f88dd01502292f648c5f10569b2",
       "payload_path": "packages/payloads/mas-0.3.3.json",
       "payload_sha256": "sha256:b0444b5cd5078dc4d57c927a0201c94b3cfa2d61fdcdfb848fc9e5d8d82b0adc",
       "allowlist_path": "allowlists/mas.json",
@@ -9198,10 +9198,10 @@
           }
         },
         "v2_release": {
-          "version": "0.3.4",
-          "source_commit": "cead8fd7016031c168e7ee611f9a33239e821d15",
-          "payload_manifest_ref": "payloads/mas-0.3.4.json",
-          "payload_sha256": "sha256:39837434d0ed62fe882b3a402fa04ef4aaab27beaeb8effab6bad2df767723d3",
+          "version": "0.3.5",
+          "source_commit": "4c489a0cb42f24248e7f0235f4de5e10ea8aaaaf",
+          "payload_manifest_ref": "payloads/mas-0.3.5.json",
+          "payload_sha256": "sha256:66c724d3c38d25e835de8fa8b9f0779946dc5b0dec98379b5de31c9af12d176b",
           "icon_ref": "assets/branding/medautoscience-logo.png"
         }
       },
