@@ -1,0 +1,15 @@
+{
+  "package_format": "v2",
+  "package_id": "opl-flow",
+  "package_version": "0.1.96",
+  "source_commit": "6e094897cc9ebe660177f7993dd803e64fb2f900",
+  "source_repo": "https://github.com/gaofeng21cn/opl-flow.git",
+  "source_root": ".",
+  "archive_sha256": "sha256:258beb61e01aa03db62d727ab823589453970ebce06bce4e436b9e022e478762",
+  "file_count": 200,
+  "content_lock": {
+    "algorithm": "sha256",
+    "canonicalization": "ordered_path_length_file_length_bytes",
+    "digest": "sha256:c07336686b6ec4faaa616fa5604f79f11ca0b7698b1aff04fdcd27215d1f350b"
+  }
+}
