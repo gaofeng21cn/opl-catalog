@@ -1,0 +1,15 @@
+{
+  "package_format": "v2",
+  "package_id": "glkvm-native",
+  "package_version": "0.1.9",
+  "source_commit": "be86ad2cb317b08bcffaafac98499fc21a07bfa3",
+  "source_repo": "https://github.com/gaofeng21cn/glkvm-native.git",
+  "source_root": ".",
+  "archive_sha256": "sha256:748f5405e7add3d1b61a606cfc8ff43650c7315b9d97c381d4e723c9ea36439f",
+  "file_count": 59,
+  "content_lock": {
+    "algorithm": "sha256",
+    "canonicalization": "ordered_path_length_file_length_bytes",
+    "digest": "sha256:9ddd3123f1ff60c71cfd0912088f5d81421711bbc63d328e7dda322c638c2ffa"
+  }
+}

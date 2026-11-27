@@ -939,7 +939,7 @@
         }
       },
       "manifest_path": "packages/applications/glkvm-native.json",
-      "manifest_sha256": "sha256:a0589eaafa538c0a82a27bf19f1b380a24d8c2c3b3e7af2e20d54a0dd833c110",
+      "manifest_sha256": "sha256:18b99362a8294e347db326475994e610e7ae13159f29e5ab1bcc6e13451dc0c2",
       "payload_path": "packages/payloads/glkvm-native-0.1.8.json",
       "payload_sha256": "sha256:8452945335a30ac97107c704a476a13f3bcefcb194d732cdac461c4a89468bb6",
       "allowlist_path": "allowlists/glkvm-native.json",
@@ -1083,7 +1083,13 @@
         },
         "publication_channel_admission": "admitted",
         "owner_package_manifest_ref": "plugins/glkvm-native/opl-package.json",
-        "owner_package_descriptor_ref": "opl-package.json"
+        "owner_package_descriptor_ref": "opl-package.json",
+        "v2_release": {
+          "version": "0.1.9",
+          "source_commit": "be86ad2cb317b08bcffaafac98499fc21a07bfa3",
+          "payload_manifest_ref": "payloads/glkvm-native-0.1.9.json",
+          "payload_sha256": "sha256:fe9d11fc14d4c68961b21b9f4caa860269eaec7f06a1ca09cde528d330b146bc"
+        }
       },
       "payload": {
         "surface_kind": "opl_package_payload_manifest.v2",
