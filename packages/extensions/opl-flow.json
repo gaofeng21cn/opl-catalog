@@ -3,14 +3,14 @@
   "package_id": "opl-flow",
   "display_name": "OPL Flow",
   "publisher": "one-person-lab",
-  "version": "0.1.92",
+  "version": "0.1.93",
   "source": "first_party",
   "source_repo": "https://github.com/gaofeng21cn/opl-flow.git",
   "package_role": "workflow_profile",
   "carrier_source_role": "codex_plugin_default_carrier_not_package_truth",
   "codex_surface": {
     "plugin_id": "opl-flow",
-    "plugin_payload_manifest_url": "payloads/opl-flow-0.1.92.json",
+    "plugin_payload_manifest_url": "payloads/opl-flow-0.1.93.json",
     "configured_codex_plugin_carrier": {
       "kind": "codex_plugin_manager",
       "plugin_selector": "opl-flow@opl-flow",
@@ -39,7 +39,7 @@
     "app_contribution_adapter": {
       "manifest": "app-contribution-adapter.json"
     },
-    "carrier_source_commit": "60e52352182cf946c7cc13ded91f78463c97a616"
+    "carrier_source_commit": "a423e21873255b4db407310d36bfc828933d07e1"
   },
   "profile_surface": {
     "runtime_profile": {
