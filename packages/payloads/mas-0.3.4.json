@@ -1,0 +1,15 @@
+{
+  "package_format": "v2",
+  "package_id": "mas",
+  "package_version": "0.3.4",
+  "source_commit": "cead8fd7016031c168e7ee611f9a33239e821d15",
+  "source_repo": "https://github.com/gaofeng21cn/med-autoscience.git",
+  "source_root": ".",
+  "archive_sha256": "sha256:75d406b3093417aabbb737f3a934ad4c069366cab5a850549546513b3a9acebc",
+  "file_count": 280,
+  "content_lock": {
+    "algorithm": "sha256",
+    "canonicalization": "ordered_path_length_file_length_bytes",
+    "digest": "sha256:37b5ef732ee73d7e48a9d63e7416853c71f12ad53e464454edf5e858d44d8191"
+  }
+}
