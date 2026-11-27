@@ -234,5 +234,12 @@
         "med-auto-science"
       ]
     }
+  },
+  "v2_release": {
+    "version": "0.3.4",
+    "source_commit": "cead8fd7016031c168e7ee611f9a33239e821d15",
+    "payload_manifest_ref": "payloads/mas-0.3.4.json",
+    "payload_sha256": "sha256:39837434d0ed62fe882b3a402fa04ef4aaab27beaeb8effab6bad2df767723d3",
+    "icon_ref": "assets/branding/medautoscience-logo.png"
   }
 }
