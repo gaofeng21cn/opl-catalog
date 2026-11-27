@@ -262,5 +262,12 @@
         "book-forge"
       ]
     }
+  },
+  "v2_release": {
+    "version": "0.4.4",
+    "source_commit": "f9d82ccc9e91ac8954d386f66673b5867fccabc8",
+    "payload_manifest_ref": "payloads/obf-0.4.4.json",
+    "payload_sha256": "sha256:991f289a454bda14e387284ece303cdca8b590a860180e2188e7569f0c3ab128",
+    "icon_ref": "assets/branding/opl-bookforge-logo.png"
   }
 }
