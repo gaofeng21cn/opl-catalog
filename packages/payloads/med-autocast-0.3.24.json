@@ -1,0 +1,15 @@
+{
+  "package_format": "v2",
+  "package_id": "med-autocast",
+  "package_version": "0.3.24",
+  "source_commit": "940f4d18f141d7196d23e2db5f32317e319c19ae",
+  "source_repo": "https://github.com/gaofeng21cn/med-autocast.git",
+  "source_root": ".",
+  "archive_sha256": "sha256:b4161e8e7c3ca8fc755a0e66950b9e977fc4b9318eb3372fa6f90d8e78f3764c",
+  "file_count": 428,
+  "content_lock": {
+    "algorithm": "sha256",
+    "canonicalization": "ordered_path_length_file_length_bytes",
+    "digest": "sha256:db18d41f8bbb3a80f107cf9cc031ad9946c1f848a3fd03be4baeffac853f1447"
+  }
+}

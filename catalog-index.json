@@ -12576,7 +12576,7 @@
       "version": "0.3.23",
       "visibility": "public",
       "manifest_path": "packages/agents/med-autocast.json",
-      "manifest_sha256": "sha256:5305a17772e7e4a2ff158d1dbc98add497e75cf10b793b4b80ed059e02b59d80",
+      "manifest_sha256": "sha256:7018a965d14b2ddf7bade938306c9e9c1e73870ec3db8fad5860db1fc9d9020d",
       "payload_path": "packages/payloads/med-autocast-0.3.23.json",
       "payload_sha256": "sha256:6f9a9d57f55fb5317e3f9684c31ce8b22827483282b7a2270085c265b4d0b056",
       "allowlist_path": "allowlists/med-autocast.json",
@@ -12825,6 +12825,13 @@
               "medical_video"
             ]
           }
+        },
+        "v2_release": {
+          "version": "0.3.24",
+          "source_commit": "940f4d18f141d7196d23e2db5f32317e319c19ae",
+          "payload_manifest_ref": "payloads/med-autocast-0.3.24.json",
+          "payload_sha256": "sha256:fed33bdf9f509a28090f20ef22364975d5d792a5168ca2f16781871712241c2b",
+          "icon_ref": "assets/branding/medautocast-logo.png"
         }
       },
       "payload": {
