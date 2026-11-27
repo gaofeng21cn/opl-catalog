@@ -1,0 +1,15 @@
+{
+  "package_format": "v2",
+  "package_id": "oma",
+  "package_version": "0.4.16",
+  "source_commit": "d2b8e3cba597afc8893e18a4189fe5d30d6a6609",
+  "source_repo": "https://github.com/gaofeng21cn/opl-meta-agent.git",
+  "source_root": ".",
+  "archive_sha256": "sha256:9977fe557d5b32448f8980cdfd5ad6e071f64e9447ed1e6e20ef7c30c087e3f6",
+  "file_count": 100,
+  "content_lock": {
+    "algorithm": "sha256",
+    "canonicalization": "ordered_path_length_file_length_bytes",
+    "digest": "sha256:c9c939dd760bc8485af9cdcb57933d6d6c8cc9e2b383bf00a536d6a4c0806168"
+  }
+}

@@ -19099,7 +19099,7 @@
       "version": "0.4.15",
       "visibility": "public",
       "manifest_path": "packages/agents/oma.json",
-      "manifest_sha256": "sha256:8beca490c82687e6c8130f2e9a9c6c33a17dd00015054ff9409e25ed64a56f0e",
+      "manifest_sha256": "sha256:8cb5b06cdd9f5df0a1ee37a8217db8545e19af97b1e4f65db99e8d555f9b616c",
       "payload_path": "packages/payloads/oma-0.4.15.json",
       "payload_sha256": "sha256:bfeab4ee9c9d88cb17edc0c294541e46812cac57b184a96ef71c0acdfcd8681d",
       "allowlist_path": "allowlists/oma.json",
@@ -19262,6 +19262,13 @@
               "meta-agent"
             ]
           }
+        },
+        "v2_release": {
+          "version": "0.4.16",
+          "source_commit": "d2b8e3cba597afc8893e18a4189fe5d30d6a6609",
+          "payload_manifest_ref": "payloads/oma-0.4.16.json",
+          "payload_sha256": "sha256:17219eb9f4eaa3cdcc7fc7fd0d42c27155e75b1452b3c12855505238b536de11",
+          "icon_ref": "assets/branding/opl-meta-agent-logo.png"
         }
       },
       "payload": {
