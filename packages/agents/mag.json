@@ -304,10 +304,10 @@
     }
   },
   "v2_release": {
-    "version": "0.4.5",
-    "source_commit": "1d21015c9c1384ba10624d9b833905ffe61c8ddf",
-    "payload_manifest_ref": "payloads/mag-0.4.5.json",
-    "payload_sha256": "sha256:6d076bedadae7c5685cafaa4b074e083ba8af842c813833427df5c8a2fc26f5d",
+    "version": "0.4.6",
+    "source_commit": "9d09025f871a0bcb41a0e4cf81b44e8a99750bc1",
+    "payload_manifest_ref": "payloads/mag-0.4.6.json",
+    "payload_sha256": "sha256:1211efa9aa1b3e4c62878b1c94c45fa0d8379918e012453d2f5db3bd3a6cd9c6",
     "icon_ref": "assets/branding/medautogrant-logo.png"
   }
 }

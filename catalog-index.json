@@ -7006,7 +7006,7 @@
       "version": "0.4.4",
       "visibility": "public",
       "manifest_path": "packages/agents/mag.json",
-      "manifest_sha256": "sha256:548ae6b85b9e3039ac540151a3ca5ae53eb147e5ed498b10200ff46b6c9c9072",
+      "manifest_sha256": "sha256:9b4c94b95ed9433706df4cd9c1cf478abe43d69e9b84a6610b51670238a11fe2",
       "payload_path": "packages/payloads/mag-0.4.4.json",
       "payload_sha256": "sha256:c45eed485539fa53db1280e60d90b4d4886671761fc3449b2845bf87388f586e",
       "allowlist_path": "allowlists/mag.json",
@@ -7317,10 +7317,10 @@
           }
         },
         "v2_release": {
-          "version": "0.4.5",
-          "source_commit": "1d21015c9c1384ba10624d9b833905ffe61c8ddf",
-          "payload_manifest_ref": "payloads/mag-0.4.5.json",
-          "payload_sha256": "sha256:6d076bedadae7c5685cafaa4b074e083ba8af842c813833427df5c8a2fc26f5d",
+          "version": "0.4.6",
+          "source_commit": "9d09025f871a0bcb41a0e4cf81b44e8a99750bc1",
+          "payload_manifest_ref": "payloads/mag-0.4.6.json",
+          "payload_sha256": "sha256:1211efa9aa1b3e4c62878b1c94c45fa0d8379918e012453d2f5db3bd3a6cd9c6",
           "icon_ref": "assets/branding/medautogrant-logo.png"
         }
       },
