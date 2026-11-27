@@ -1,0 +1,15 @@
+{
+  "package_format": "v2",
+  "package_id": "travel-passport",
+  "package_version": "0.2.5",
+  "source_commit": "0b46fb7f55cc3fb45899c45f115d32652bb345af",
+  "source_repo": "https://github.com/gaofeng21cn/journey-atlas.git",
+  "source_root": "plugins/travel-passport",
+  "archive_sha256": "sha256:10e8fed07e3a637471054ce8e2dc9019dfb8e5ec47f4d3a1e55adde78eade37b",
+  "file_count": 145,
+  "content_lock": {
+    "algorithm": "sha256",
+    "canonicalization": "ordered_path_length_file_length_bytes",
+    "digest": "sha256:d4ec78e30bb5a4909b202ba09c75a280ac36a485dacc5c1b45de8b3acfb01896"
+  }
+}
