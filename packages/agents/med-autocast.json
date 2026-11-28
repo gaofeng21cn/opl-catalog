@@ -244,10 +244,10 @@
     }
   },
   "v2_release": {
-    "version": "0.3.24",
-    "source_commit": "940f4d18f141d7196d23e2db5f32317e319c19ae",
-    "payload_manifest_ref": "payloads/med-autocast-0.3.24.json",
-    "payload_sha256": "sha256:fed33bdf9f509a28090f20ef22364975d5d792a5168ca2f16781871712241c2b",
+    "version": "0.3.25",
+    "source_commit": "f99c15673dc61b2e8feff1a0804c0354b9bcdbaf",
+    "payload_manifest_ref": "payloads/med-autocast-0.3.25.json",
+    "payload_sha256": "sha256:9e6ca2ea6b6e89a81e936706896d7bdd41ea14417589a04768406e31b06dc8b2",
     "icon_ref": "assets/branding/medautocast-logo.png"
   }
 }
