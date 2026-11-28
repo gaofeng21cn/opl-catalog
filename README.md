@@ -2,7 +2,7 @@
 
 Official software catalog and static package index for the **One Person Lab (OPL)** ecosystem.
 
-`one-person-lab` (OPL Framework) provides the software-source protocol, verification engine, and lifecycle runtime; this repository owns the official software catalog data consumed by `opl sources refresh --source-id public-registry:opl`.
+`one-person-lab` (OPL Framework) provides the software-source protocol, verification engine, and lifecycle runtime; this repository owns the official software catalog data consumed by `opld` catalog synchronization (`opl sources list`, `opl pack install`).
 
 ## Directory Layout
 
