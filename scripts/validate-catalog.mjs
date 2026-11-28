@@ -15,7 +15,13 @@ for (const entry of index.packages) {
   assert.notEqual(entry.package_id, 'opl-channel-weixin', 'opl-channel-weixin is a native Studio DSH plugin, not a catalog package');
   assert.notEqual(entry.package_id, 'opl-link-desktop-connector', 'opl-link-desktop-connector is retired and must not appear in the catalog');
   assert.match(entry.manifest_sha256, /^sha256:[0-9a-f]{64}$/);
+  assert.match(entry.manifest.source_repo ?? '', /^https:\/\/github\.com\/[^/]+\/[^/]+\.git$/, `${entry.package_id} must declare a canonical GitHub source_repo`);
+  const publicationRef = entry.manifest.codex_surface?.configured_codex_plugin_carrier?.publication_ref;
+  if (publicationRef) {
+    assert.ok(publicationRef.startsWith('ghcr.io/') && publicationRef.includes(`/${entry.package_id}:`), `${entry.package_id} publication_ref must target its own package ID`);
+  }
   if (entry.payload_path) {
+    assert.equal(entry.payload_path, `packages/payloads/${entry.package_id}-${entry.version}.json`, `${entry.package_id} payload_path must match version`);
     assert.match(entry.payload_sha256, /^sha256:[0-9a-f]{64}$/);
   }
   assert.match(entry.allowlist_sha256, /^sha256:[0-9a-f]{64}$/);
