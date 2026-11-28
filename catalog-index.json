@@ -19656,7 +19656,7 @@
       "version": "0.1.93",
       "visibility": "public",
       "manifest_path": "packages/extensions/opl-flow.json",
-      "manifest_sha256": "sha256:ee992376b581971e69cbd6923c223b87007aae347604a8eb0ea20b1a0ff9b1aa",
+      "manifest_sha256": "sha256:b6b309ae76e4988e976bfc1fa3696575ccadd1ef8f2469bc5cfc3efd9f7eed52",
       "payload_path": "packages/payloads/opl-flow-0.1.93.json",
       "payload_sha256": "sha256:3b1640f12763687310a7d5b36bcb966283c819b9e0ccf965c52e3f261cbefe64",
       "allowlist_path": "allowlists/opl-flow.json",
@@ -19867,10 +19867,10 @@
         },
         "machine_boundary": "This first-party OPL Package records OPL Flow package identity and profile migration ownership. It cannot silently overwrite user Codex profiles or claim project, runtime, domain, artifact, or owner-receipt truth.",
         "v2_release": {
-          "version": "0.1.97",
-          "source_commit": "10e966eaf795bbc3d5d6279bdd2086d521f3f5dd",
-          "payload_manifest_ref": "payloads/opl-flow-0.1.97.json",
-          "payload_sha256": "sha256:a19e4ae36ef934acb8f896a604fa2ff1afdc037cc899de8de1f2af3e531b1317",
+          "version": "0.1.98",
+          "source_commit": "694493e7d7f15f54ff3f2340fa9dac8658c01acc",
+          "payload_manifest_ref": "payloads/opl-flow-0.1.98.json",
+          "payload_sha256": "sha256:83085f8c163514116ec74716883bafdc6e395d6462dc12c9e454284267c52d90",
           "icon_ref": "assets/branding/opl-flow-logo.png"
         }
       },
