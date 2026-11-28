@@ -1,0 +1,15 @@
+{
+  "package_format": "v2",
+  "package_id": "mas-scholar-skills",
+  "package_version": "0.2.35",
+  "source_commit": "e7d2cc9cc061c55a88a67e67eef9547fd4d01295",
+  "source_repo": "https://github.com/gaofeng21cn/mas-scholar-skills.git",
+  "source_root": ".",
+  "archive_sha256": "sha256:bdc5f0a702f07a1da7826d50f71ca595f0c2a5ce3ac7e3e0e7937b959b1c1eb4",
+  "file_count": 348,
+  "content_lock": {
+    "algorithm": "sha256",
+    "canonicalization": "ordered_path_length_file_length_bytes",
+    "digest": "sha256:ac00c6f1e3ee71deb52f8a1609c864da42996e62cc1b8e170b7c4332747f6cb7"
+  }
+}
